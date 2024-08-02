@@ -19,16 +19,8 @@ python scrape.py
 ```
 The script performs the following steps:
 
-1.Sends a 'GET' request to the specified URL.
-
-
-2.Parses the HTML content of the response.
-
-
-3.Extracts and prints the text of the first 'h1' header.
-
-
-4.Extracts and prints the text of the first 'p' paragraph.
-
-
-5.Extracts and prints the href attribute of the first 'a' link.
+1. Sends a GET request to the specified URL.
+2. Parses the HTML content of the response.
+3. Extracts and prints the text of the first `<h1>` header.
+4. Extracts and prints the text of the first `<p>` paragraph.
+5. Extracts and prints the `href` attribute of the first `<a>` link.
